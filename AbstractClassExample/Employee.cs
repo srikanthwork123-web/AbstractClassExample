@@ -9,7 +9,9 @@ namespace AbstractClassExample
     //If you want to create any class as abstarct class,class before use abstract keyword.
     //In normal class whaterver you are perfomr all the things you can do in abstarct class also.
     //here abstarct class we just add abstact methods,abstact properties....create for future implemetation
-    //
+    //Abstract class is a collection of abstract members and non abstract members(static and non static variables and methods)
+    // Default access modifier of a abstract class will be public
+//abstarct class is a partially implemented class.if you know some methods implemention and if you don't know some methods implemetation  we can go for abstarct class.
     public abstract class Employee
     {//at a time if you want to create 2 varaibles with same datatype..you can go with below process
         protected int eid, eage;//2 varaiables declared(but value not assigned to these variables)
